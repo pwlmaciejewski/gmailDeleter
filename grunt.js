@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 
     coffee: {
       all: {
-        src: ['lib/**/*.coffee', 'test/**/*.coffee'],
+        src: ['bin/**/*.coffee', 'lib/**/*.coffee', 'test/**/*.coffee'],
         dest: '<%= grunt.task.current.target %>'
       }
     },

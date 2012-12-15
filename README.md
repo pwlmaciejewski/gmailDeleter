@@ -1,13 +1,10 @@
-# gmailDeleter [![Build Status](https://secure.travis-ci.org/fragphace/gmailDeleter.png?branch=master)](http://travis-ci.org/fragphace/gmailDeleter)
-
-Deletes all read emails.
-
-## Installation
-
-```
-npm install gmailDeleter
-```
+Deletes all your gmail inbox emails.
 
 ## Usage
 
-_(Coming soon)_
+```
+git clone git://github.com/fragphace/gmailDeleter.git
+cd gmailDeleter
+npm install
+node bin/gmailDeleter.js
+```

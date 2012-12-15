@@ -20,12 +20,8 @@
       "url": "https://github.com/fragphace/gmailDeleter/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/gmailDeleter",
   "engines": {
     "node": ">=0.8.0"
-  },
-  "scripts": {
-    "test": "grunt test"
   },
   "devDependencies": {
     "buster": "*",
@@ -36,6 +32,10 @@
   },
   "keywords": [],
   "dependencies": {
-    "zombie": "~1.4.1"
+    "zombie": "~1.4.1",
+    "unterproto": "0.0.2",
+    "prompt": "~0.2.8",
+    "async": "~0.1.22",
+    "npmlog": "0.0.2"
   }
 }
